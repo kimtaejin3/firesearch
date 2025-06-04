@@ -1,5 +1,5 @@
-import { Chat } from './chat';
-import Image from 'next/image';
+import { Chat } from "./chat";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -20,6 +20,7 @@ export default function Home() {
               className="w-[113px] h-auto"
             />
           </a>
+        </div>
       </header>
 
       {/* Hero section */}
@@ -49,7 +50,7 @@ export default function Home() {
       <footer className="px-4 sm:px-6 lg:px-8 py-8 mt-auto">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-sm text-gray-600 dark:text-gray-400">
-            Powered by{' '}
+            Powered by{" "}
             <a
               href="https://firecrawl.dev"
               target="_blank"
@@ -58,7 +59,7 @@ export default function Home() {
             >
               Firecrawl
             </a>
-            {' and '}
+            {" and "}
             <a
               href="https://www.langchain.com/langgraph"
               target="_blank"
